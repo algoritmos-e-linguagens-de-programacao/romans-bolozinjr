@@ -23,21 +23,21 @@ def romano_to_inteiro(s):
         prev_value = value
     return integer_num
 
-def main():
-    while True:
-        choice = input("Digite '1' para converter um número inteiro para romano, ou '2' para converter um número romano para inteiro, ou 'sair' para encerrar: ")
+# def main():
+#     while True:
+#         choice = input("Digite '1' para converter um número inteiro para romano, ou '2' para converter um número romano para inteiro, ou 'sair' para encerrar: ")
         
-        if choice == '1':
-            num = int(input("Digite um número inteiro: "))
-            print("Número romano correspondente:", inteio_to_romano(num))
-        elif choice == '2':
-            num = input("Digite um número romano: ")
-            print("Número inteiro correspondente:", romano_to_inteiro(num))
-        elif choice.lower() == 'sair':
-            print("Programa encerrado.")
-            break
-        else:
-            print("Escolha inválida. Tente novamente.")
+#         if choice == '1':
+#             num = int(input("Digite um número inteiro: "))
+#             print("Número romano correspondente:", inteio_to_romano(num))
+#         elif choice == '2':
+#             num = input("Digite um número romano: ")
+#             print("Número inteiro correspondente:", romano_to_inteiro(num))
+#         elif choice.lower() == 'sair':
+#             print("Programa encerrado.")
+#             break
+#         else:
+#             print("Escolha inválida. Tente novamente.")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
